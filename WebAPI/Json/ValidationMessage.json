@@ -1,0 +1,18 @@
+{
+  "ValidationMessages": {
+    "CodeMessages": [
+      {
+        "Code": 0,
+        "Msg": "Success"
+      },
+      {
+        "Code": 1,
+        "Msg": "An unhandled exception occurred while processing the request"
+      },
+      {
+        "Code": 2,
+        "Msg": "No record found"
+      }
+    ]
+  }
+}

@@ -6,6 +6,7 @@ builder.Services.AddControllers();
 
 builder.Configuration.SetBasePath(Directory.GetCurrentDirectory());
 builder.Configuration.AddJsonFile("Json/AppSettings.json");
+builder.Configuration.AddJsonFile("Json/ValidationMessages.json");
 
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
